@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Launcher Updates</title>
+    <title>Reflex Interactive Game Launcher</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #000;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            width: 1180px;
+            height: 680px;
             background: rgba(30, 30, 30, 0.95);
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+            padding: 20px;
+            overflow-y: auto;
         }
         h1 {
             text-align: center;
@@ -42,11 +47,13 @@
             padding-bottom: 8px;
             color: #ff4444;
         }
-        p {
-            margin: 8px 0 0;
+        p, ul {
             font-size: 18px;
             line-height: 1.6;
             color: #ddd;
+        }
+        ul {
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -58,61 +65,18 @@
             <h2>Version 0.1.0</h2>
             <p>- Initial Release</p>
             <p>
-                The first public release of the Game Launcher is now available! This version introduces the core functionality, allowing users to create accounts and store their games locally. The launcher is designed to provide a smooth and modern experience for managing your game library. Below is a detailed breakdown of the key features available in this version:
+                The first public release of the Game Launcher is now available! This version introduces core features including user accounts, a store, and a game library.
             </p>
-            
-            <h3>🔹 User Accounts & Authentication</h3>
+            <h3>🔹 Key Features</h3>
             <ul>
-                <li>Users can create an account and log in to personalize their game collection.</li>
-                <li>Login button updates to display the username upon signing in.</li>
-                <li>Once logged in, the button navigates to the account page.</li>
-                <li>A logout button is available in the navbar for easy account management.</li>
+                <li>Accounts: Create and log in to manage your game collection.</li>
+                <li>Store: Browse and purchase games dynamically.</li>
+                <li>Library: View owned games with sleek UI.</li>
+                <li>Wishlist: Track desired purchases easily.</li>
+                <li>Dark Theme: Consistent modern aesthetic.</li>
             </ul>
-            
-            <h3>🔹 Store Page</h3>
-            <ul>
-                <li>Displays a dynamic list of games available for purchase.</li>
-                <li>Clicking on a game opens its detailed Game Details page.</li>
-                <li>Each game listing includes a title, cover image, price, genres, tags, and system requirements.</li>
-                <li>A "Buy Game" button allows users to add purchased games to their library.</li>
-                <li>The purchase button updates correctly depending on whether the game is owned.</li>
-            </ul>
-            
-            <h3>🔹 Game Details Page</h3>
-            <ul>
-                <li>Displays in-depth information about a selected game.</li>
-                <li>Includes a large game screenshot, title, description, genres, and tags.</li>
-                <li>System requirements are listed for users to check compatibility.</li>
-                <li>Features a "Buy Game" button that updates dynamically after purchase.</li>
-                <li>Users can add the game to their Wishlist for later consideration.</li>
-                <li>A "Back" button in the top left allows easy navigation back to the Store.</li>
-            </ul>
-            
-            <h3>🔹 Library Page</h3>
-            <ul>
-                <li>Owned games are stored and displayed dynamically in the user's library.</li>
-                <li>Each game listing includes its title and cover image.</li>
-                <li>Games can be launched directly from the library (future update for actual launching).</li>
-                <li>The UI is designed for a sleek, dark theme consistent across all pages.</li>
-            </ul>
-            
-            <h3>🔹 Wishlist Feature</h3>
-            <ul>
-                <li>A dedicated Wishlist tab is available in both the Store and Library pages.</li>
-                <li>Users can add games to their Wishlist from the Game Details page.</li>
-                <li>Wishlisted games are displayed dynamically, making it easy to track desired purchases.</li>
-            </ul>
-            
-            <h3>🔹 UI & Design</h3>
-            <ul>
-                <li>The launcher features a dark, modern, and consistent theme across all pages.</li>
-                <li>Navigation is simple and intuitive, with easy access to Store, Library, and Wishlist sections.</li>
-                <li>Buttons and UI elements update dynamically based on user actions.</li>
-            </ul>
-            
-            <p>More features and improvements are planned for future updates, including better game launching functionality, download management, and enhanced account features. Stay tuned for more!</p>
+            <p>More features are coming soon!</p>
         </div>        
-
     </div>
 </body>
 </html>
